@@ -24,6 +24,10 @@
   }
 }
 
+body {
+  background: #ddd;
+}
+
 *, p, div {
   color: #999;
   font-family: "Poppins", sans-serif;
