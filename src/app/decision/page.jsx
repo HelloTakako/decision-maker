@@ -46,7 +46,7 @@ export default function DecisionMaking() {
           {values.length > 1 ?
           (
             <>
-              <p className="mt-20 mb-8 text-center">Which is important for you?</p>
+              <p className="mt-20 mb-8 text-center">Which is more important for you?</p>
               {options && (
                 <>
                   <div className="flex flex-col items-center gap-6 mb-10">
