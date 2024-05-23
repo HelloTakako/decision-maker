@@ -34,3 +34,11 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+.wrapper {
+  @apply bg-white p-4 shadow-[0_0_10px_rgba(0,0,0,0.1)] rounded-md h-[95vh] flex flex-col
+}
+
+.button {
+  @apply text-center block w-full mx-auto bg-[#6895e4] text-[20px] font-[600] rounded-md p-2 text-white
+}
