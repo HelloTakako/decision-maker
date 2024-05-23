@@ -1,9 +1,11 @@
 'use client';
 
 import { useState } from "react";
+import { useValue } from "./context/valueContext";
 
 export default function Form() {
-  const [values, setValues] = useState([]);
+  const { values, setValues } = useValue();
+  // const [values, setValues] = useState([]);
   const [value, setValue] = useState('');
 
   const handleSubmit = (e) => {
@@ -28,7 +30,7 @@ export default function Form() {
             ))}
         </ul>
 
-        <button className="text-center block w-full mx-auto bg-[#6895e4] text-[24px] font-[600] rounded-md p-2 text-white">Make a decision</button>
+        <button className="text-center block w-full mx-auto bg-[#6895e4] text-[20px] font-[600] rounded-md p-2 text-white">Make a decision</button>
       </div>
     </>
   );
