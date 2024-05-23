@@ -36,7 +36,7 @@ body {
 }
 
 .wrapper {
-  @apply bg-white p-4 shadow-[0_0_10px_rgba(0,0,0,0.1)] rounded-md h-[95vh] flex flex-col
+  @apply bg-white p-4 shadow-[0_0_10px_rgba(0,0,0,0.1)] rounded-md h-[calc(100vh-2.5rem)] flex flex-col
 }
 
 .button {
