@@ -19,7 +19,7 @@ export default function Form() {
   return (
     <>
       <div className="wrapper">
-        <p className="text-center text-[14px] mb-[40px]">Add more than 2 important things for you.</p>
+        <p className="text-center text-[14px] mb-[40px]">Add 3 or more important things for you.</p>
         <form onSubmit={handleSubmit} className="mb-8">
           <input className="w-full text-[18px] border-b-[1px] border-[#ccc] p-2 mb-4 text-center" type="text" value={value} onChange={e => setValue(e.target.value)} />
           <button className="text-center block w-[100px] mx-auto rounded-md py-1 border-[1px] border-[#ccc] " type="submit">Add</button>
@@ -31,7 +31,7 @@ export default function Form() {
             ))}
         </ul>
 
-        {values.length >= 2 ? 
+        {values.length >= 3 ? 
         (
           <Link href="/decision" className="button">
             Make a decision

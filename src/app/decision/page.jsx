@@ -53,7 +53,7 @@ export default function DecisionMaking() {
                     <div className="button" onClick={() => handleSelectOption(1)}>{options[0]}</div>
                     <div className="button" onClick={() => handleSelectOption(0)}>{options[1]}</div>
                   </div>
-                  <p className="text-center text-[14px]">Choices left: {values.length}</p>
+                  {/* <p className="text-center text-[14px]">Choices left: {values.length}</p> */}
                 </>
               )}
             </>
@@ -66,7 +66,7 @@ export default function DecisionMaking() {
           )}
             
 
-            <Link href="/" className="block mt-auto underline cursor-pointer text-center">
+            <Link href="/" className="block mt-auto underline cursor-pointer text-center" onClick={() => setValues([])}>
               Home
             </Link>
         </div>
